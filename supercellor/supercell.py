@@ -9,7 +9,7 @@ except ImportError:
     from pymatgen.util.coord_utils import lattice_points_in_supercell
 
 
-from supercellor.lib.optimal_supercell import (
+from .lib.optimal_supercell import (
     utils, fort_optimal_supercell_hnf, fort_optimal_supercell_bec)
 
 
